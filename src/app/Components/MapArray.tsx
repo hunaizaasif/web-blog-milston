@@ -15,7 +15,7 @@ const MapArray = () => {
 
       {fruits.map((phal) => (
         <div className="border shadow-xl p-5 hover:bg-blue-500"
-          // key={phal.id}
+          key={phal.id}
         >
 
           {/* <img src={phal.image} alt={phal.fruitName} width={300} height={300} /> */}
